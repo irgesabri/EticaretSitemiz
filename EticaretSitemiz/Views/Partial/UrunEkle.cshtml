@@ -1,0 +1,59 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UrunEkle</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1  class="text-center">Urun Ekleme</h1>
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-4" style="background-color:#d3d3d3; border:1px solid gray; padding:10px;border-radius:3px">
+                @*offset yana doğru kaydırma. 4 birimlik bir kare yanında 4 birimlik boşul*@
+                <form action="/Partial/UrunEkle" method="post" enctype="multipart/form-data">
+                    @*Bir dosya yollama işlemi varsa bu enctype eklenmek zorunda .Bu karşıya yollanan dosyaların şifrelenmesini sağlıyor. Eğer bunu eklemezsek resmi görmüyor. Bir de kontrolun name i ve id si aynı olmalı*@
+                    <div class="form-group">
+                        <label for="comment">Ürün Adı:</label>
+                        <input id="Text1" type="text" class="form-control" name="urunadi" />
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Ürün Fiyat:</label>
+                        <input id="Text1" type="text" class="form-control" name="urunfiyat" />
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Ürün Stok:</label>
+                        <input id="Text1" type="text" class="form-control" name="urunstok" />
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Ürün Açıklama:</label>
+                        <textarea id="TextArea1" class="form-control" name="urunaciklama" rows="3" cols="20"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Ürün Resmi:</label>
+                        <input id="urunresim" type="file" name="urunresim" class="form-control" />
+                    </div>
+                    @*type=file dosya seçmeye yarar. resim geriye HttpPostedFileBase tipinde gelecek*@
+                    <div class="form-group">
+                        <input id="Submit1" type="submit" value="Ekle" class="btn btn-success" />
+                        @Html.Raw(ViewBag.Uyari)
+                        @*Html.Raw methodu, htmle dönüştürür. htmle çevirme yapmadan direk ViewBag kullanırsak, uyarının içindeki br ler düz yazıymış gibi algılanıyor*@
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

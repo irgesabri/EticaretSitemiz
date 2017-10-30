@@ -1,0 +1,70 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/scripts/bootstrap.min.js"></script>
+
+    <script>
+        // $ jquery kodu yazacağımızı belirtiyoruz.
+        $(document).ready(function()
+        {
+            $("#btnSepeteEkle").click(function()
+            {
+                $.ajax({
+                    url:'/SepeteEkle.ashx',
+                    type:'POST',
+                    data:'urunid='+$("#hiddenUrunID").val(),
+                    success:function (data){
+                        $("#sepetsayi").html(data);
+                    },
+                    eror:function(errorText){
+                        alert("bir şeyler yanlış gidiyor olmalı.")
+                    }
+                    
+                })
+                window.alert("Sepete Ekleme");
+            });
+        });
+
+
+
+    </script>
+
+
+
+    <style>
+        body {
+            background-color: #cacfed;
+        }
+
+        .box {
+            background-color: azure;            
+            border-radius: 12px;
+        }
+    </style>
+
+
+
+
+</head>
+<body>
+
+    <div>@Html.Action("UstMenu", "Shared")</div>
+    <div class="container">
+        <div class="col-xs-3">
+            @Html.Action("SolMenu", "Shared")
+        @*@Html.Action("SolReklam","Shared")*@
+
+        </div>@*sol kısım*@
+        <div class="col-xs-9">@RenderBody()</div>    @*orta kısım*@
+
+        <div>Alt</div>
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+﻿@model URUNLER
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Index.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="~/images/urunler/@Model.URUNLER_RESIM.FirstOrDefault().Resim" />
+            @*bu urune bağlıurunler_resim tablosundan ilk gelen resmi buraya bas.*@
+            <h1><b>@Model.urunAdi</b></h1>
+            <h2>@Model.urunFiyat.Value.ToString("C")</h2>
+            <div>
+                <input id="hiddenUrunID" type="hidden" value="@Model.urunID"  />
+
+                <input id="btnSepeteEkle" type="button" value="Sepete At" class="btn btn-success" />
+
+            </div>
+            <hr />
+            <p>@Model.urunAciklama</p>
+
+        </div>
+
+    </div>
+
+</div>

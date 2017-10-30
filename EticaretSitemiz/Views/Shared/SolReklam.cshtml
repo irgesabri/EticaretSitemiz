@@ -1,0 +1,11 @@
+﻿
+@model List<EticaretSitemiz.REKLAM>
+    <div class="col-sm-12">
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                @Html.Raw(item.reklamKodu)<br />
+               @*reklam kodlarını alt alta basacak.*@
+            }
+        </div>
+    </div>

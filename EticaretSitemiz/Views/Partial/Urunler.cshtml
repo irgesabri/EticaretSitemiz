@@ -1,0 +1,107 @@
+﻿@model List<URUNLER>
+@{
+    Layout = null;
+}
+
+<div class="row" style="padding-bottom:10px">
+    @if (ViewBag.KategoriUrunleri==null)
+    {
+        foreach (var item in Model)
+        {
+            try
+            {
+                <div class="col-xs-3 box col-sm-offset-1 " style="margin-top:15px">
+                    <img src="~/images/urunler/@item.URUNLER_RESIM.First().Resim" class="img-responsive img-thumbnail"/>
+                    <h3>@item.urunAdi</h3>
+                    <p>@item.urunAciklama</p>
+                    <h4>@item.urunFiyat.Value.ToString("C")</h4>
+                    <a href="/UrunDetay/Index/@item.urunID" class="btn btn-success">Ürün Detay</a>
+                    <br />
+                </div>
+            }
+            catch (Exception)
+            {
+                <div class="col-xs-3 box col-sm-offset-1 " style="margin-top:15px">
+                    <img src="~/images/urunler/resimyok.png" class="img-responsive img-thumbnail" />
+                    <h3>@item.urunAdi</h3>
+                    <p>@item.urunAciklama</p>
+                    <h4>@item.urunFiyat.Value.ToString("C")</h4>
+                    <a href="/UrunDetay/Index/@item.urunID" class="btn btn-success">Ürün Detay</a>
+                    <br />
+                </div>
+            }
+        }
+    }
+    else
+    {
+        foreach (var item in (List<KATEGORI_URUNLER>)ViewBag.KategoriUrunleri)
+        {
+            try
+            {
+                <div class="col-xs-3 box col-sm-offset-1 " style="margin-top:15px">
+                    <img src="~/images/urunler/@item.URUNLER.URUNLER_RESIM.First().Resim" class="img-responsive img-thumbnail" />
+                    @*item içinde KATEGORI_URUNLER var. onun bağlı olduğu URUNLER tablosunun da bağlı olduğu URUNLER_RESIM in İLK RESIM kolonunu using içinden alamam.  controllerdan usingi kaldırmadan ilişkili tabloları kullanamıyoruz
+        Böylelikle kullanıcı eğer kategori sayfasından geliyorsa ürünleri açtırıyoruz.Kategori id sine göre ürünleri açıyoruz aslında*@
+                    <h3>@item.URUNLER.urunAdi</h3>
+                    <p>@item.URUNLER.urunAciklama</p>
+                    <h4>@item.URUNLER.urunFiyat.Value.ToString("C")</h4>
+                    <a href="/UrunDetay/Index/@item.urunID" class="btn btn-success">Ürün Detay</a>
+                    <br />
+                </div>
+            }
+            catch (Exception)
+            {
+                <div class="col-xs-3 box col-sm-offset-1 " style="margin-top:15px">
+                    <img src="~/images/urunler/resimyok.png" class="img-responsive img-thumbnail" />
+                    <h3>@item.URUNLER.urunAdi</h3>
+                    <p>@item..URUNLER.urunAciklama</p>
+                    <h4>@item.URUNLER.urunFiyat.Value.ToString("C")</h4>
+                    <a href="/UrunDetay/Index/@item.urunID" class="btn btn-success">Ürün Detay</a>
+                    <br />
+                </div>
+            }
+        }
+    }
+
+
+</div>
+
+
+
+
+
+
+<div>
+    @*<div class="container">
+            <div class="row" style="padding-bottom:10px">
+                <div class="col-sm-3 box col-sm-offset-1">
+                    <img src="~/images/urun2.jpg" class="img-responsive img-thumbnail" />
+                    <h3>Süpürge</h3>
+                    <p>Urun Kısa açıklaması</p>
+                </div>
+
+                <div class="col-sm-3 box col-sm-offset-1">
+                    <img src="~/images/urun1.jpg" class="img-responsive img-thumbnail" />
+                    <h3>Sıvı Sabun Kabı</h3>
+                    <p>Urun Kısa açıklaması</p>
+
+                </div>
+
+                <div class="col-sm-3 box col-sm-offset-1">
+                    <img src="~/images/urun4.jpg" class="img-responsive img-thumbnail" />
+                    <h3>Akıllı Saat</h3>
+                    <p>Urun Kısa açıklaması</p>
+                </div>
+                <div class="col-sm-3 box col-sm-offset-1">
+                    <img src="~/images/urun2.jpg" class="img-responsive img-thumbnail" />
+                    <h3>Cep Telefonu</h3>
+                    <p>Urun Kısa Açıklama</p>
+                </div>
+                <div class="col-sm-3 box col-sm-offset-1">
+                    <img src="~/images/urun4.jpg" class="img-responsive img-thumbnail" />
+                    <h3>Masa Sandalye</h3>
+                    <p>Urun Kısa Açıklama</p>
+                </div>
+            </div>
+        </div>*@
+</div>

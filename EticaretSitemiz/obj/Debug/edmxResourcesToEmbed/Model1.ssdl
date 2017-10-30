@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Eticaret_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="KATEGORI_URUNLER">
+    <Key>
+      <PropertyRef Name="kategori_urunID" />
+    </Key>
+    <Property Name="kategori_urunID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kategoriID" Type="int" />
+    <Property Name="urunID" Type="int" />
+  </EntityType>
+  <EntityType Name="KATEGORILER">
+    <Key>
+      <PropertyRef Name="kategoriID" />
+    </Key>
+    <Property Name="kategoriID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kategoriAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="kategoriSira" Type="int" />
+  </EntityType>
+  <EntityType Name="KULLANICI">
+    <Key>
+      <PropertyRef Name="kullaniciID" />
+    </Key>
+    <Property Name="kullaniciID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="kullaniciAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="REKLAM">
+    <Key>
+      <PropertyRef Name="reklamID" />
+    </Key>
+    <Property Name="reklamID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="reklamAd" Type="nvarchar" MaxLength="50" />
+    <Property Name="reklamKodu" Type="ntext" />
+    <Property Name="durum" Type="bit" />
+    <Property Name="yer" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="SITEAYARLARI">
+    <Key>
+      <PropertyRef Name="siteAyarlariID" />
+    </Key>
+    <Property Name="siteAyarlariID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ayarisim" Type="nvarchar" MaxLength="50" />
+    <Property Name="ayardeger" Type="nvarchar" MaxLength="50" />
+    <Property Name="durum" Type="bit" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="URUNLER">
+    <Key>
+      <PropertyRef Name="urunID" />
+    </Key>
+    <Property Name="urunID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="urunAdi" Type="nvarchar" MaxLength="50" />
+    <Property Name="urunFiyat" Type="decimal" Precision="18" Scale="3" />
+    <Property Name="urunStok" Type="int" />
+    <Property Name="urunAciklama" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="URUNLER_RESIM">
+    <Key>
+      <PropertyRef Name="UrunResimID" />
+    </Key>
+    <Property Name="UrunResimID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Resim" Type="nvarchar(max)" />
+    <Property Name="Sira" Type="int" />
+    <Property Name="Durum" Type="bit" />
+    <Property Name="urunID" Type="int" />
+  </EntityType>
+  <Association Name="FK_KATEGORI_URUNLER_KATEGORILER">
+    <End Role="KATEGORILER" Type="Self.KATEGORILER" Multiplicity="0..1" />
+    <End Role="KATEGORI_URUNLER" Type="Self.KATEGORI_URUNLER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="KATEGORILER">
+        <PropertyRef Name="kategoriID" />
+      </Principal>
+      <Dependent Role="KATEGORI_URUNLER">
+        <PropertyRef Name="kategoriID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_KATEGORI_URUNLER_URUNLER">
+    <End Role="URUNLER" Type="Self.URUNLER" Multiplicity="0..1" />
+    <End Role="KATEGORI_URUNLER" Type="Self.KATEGORI_URUNLER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="URUNLER">
+        <PropertyRef Name="urunID" />
+      </Principal>
+      <Dependent Role="KATEGORI_URUNLER">
+        <PropertyRef Name="urunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_URUNLER_RESIM_URUNLER">
+    <End Role="URUNLER" Type="Self.URUNLER" Multiplicity="0..1" />
+    <End Role="URUNLER_RESIM" Type="Self.URUNLER_RESIM" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="URUNLER">
+        <PropertyRef Name="urunID" />
+      </Principal>
+      <Dependent Role="URUNLER_RESIM">
+        <PropertyRef Name="urunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Eticaret_DBModelStoreContainer">
+    <EntitySet Name="KATEGORI_URUNLER" EntityType="Self.KATEGORI_URUNLER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KATEGORILER" EntityType="Self.KATEGORILER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="KULLANICI" EntityType="Self.KULLANICI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="REKLAM" EntityType="Self.REKLAM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SITEAYARLARI" EntityType="Self.SITEAYARLARI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="URUNLER" EntityType="Self.URUNLER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="URUNLER_RESIM" EntityType="Self.URUNLER_RESIM" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_KATEGORI_URUNLER_KATEGORILER" Association="Self.FK_KATEGORI_URUNLER_KATEGORILER">
+      <End Role="KATEGORILER" EntitySet="KATEGORILER" />
+      <End Role="KATEGORI_URUNLER" EntitySet="KATEGORI_URUNLER" />
+    </AssociationSet>
+    <AssociationSet Name="FK_KATEGORI_URUNLER_URUNLER" Association="Self.FK_KATEGORI_URUNLER_URUNLER">
+      <End Role="URUNLER" EntitySet="URUNLER" />
+      <End Role="KATEGORI_URUNLER" EntitySet="KATEGORI_URUNLER" />
+    </AssociationSet>
+    <AssociationSet Name="FK_URUNLER_RESIM_URUNLER" Association="Self.FK_URUNLER_RESIM_URUNLER">
+      <End Role="URUNLER" EntitySet="URUNLER" />
+      <End Role="URUNLER_RESIM" EntitySet="URUNLER_RESIM" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

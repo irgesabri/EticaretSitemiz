@@ -1,0 +1,100 @@
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\ApplicationInsights.config
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\csc.exe
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\System.Collections.Immutable.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\vbc.exe
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\VBCSCompiler.exe
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\roslyn\VBCSCompiler.exe.config
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\EticaretSitemiz.dll.config
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\EticaretSitemiz.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\EticaretSitemiz.pdb
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\EntityFramework.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\EntityFramework.SqlServer.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.Web.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.WindowsServer.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.ApplicationInsights.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.Web.Infrastructure.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Helpers.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Mvc.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Razor.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.Deployment.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.Razor.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\EntityFramework.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\EntityFramework.SqlServer.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.Web.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.WindowsServer.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.ApplicationInsights.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Razor.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.Deployment.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.Razor.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Helpers.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Mvc.xml
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\obj\Debug\EticaretSitemiz.dll
+c:\users\sabri\documents\visual studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\obj\Debug\EticaretSitemiz.pdb
+C:\Users\SABRI\Documents\Visual Studio 2015\Projects\EticaretSitemiz\EticaretSitemiz\obj\Debug\EticaretSitemiz.csprojResolveAssemblyReference.cache
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\ApplicationInsights.config
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\csc.exe
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\System.Collections.Immutable.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\System.Reflection.Metadata.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\vbc.exe
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\VBCSCompiler.exe
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\roslyn\VBCSCompiler.exe.config
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\EticaretSitemiz.dll.config
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\EticaretSitemiz.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\EticaretSitemiz.pdb
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\EntityFramework.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\EntityFramework.SqlServer.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.Agent.Intercept.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.DependencyCollector.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.Web.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.WindowsServer.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.ApplicationInsights.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.Web.Infrastructure.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Helpers.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Mvc.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Razor.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.Deployment.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.Razor.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\EntityFramework.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\EntityFramework.SqlServer.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.DependencyCollector.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.Web.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.AI.WindowsServer.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.ApplicationInsights.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Razor.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.Deployment.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Webpages.Razor.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Helpers.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\bin\System.Web.Mvc.xml
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\obj\Debug\EticaretSitemiz.csprojResolveAssemblyReference.cache
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\obj\Debug\EticaretSitemiz.dll
+D:\mecidiyeköy\21.05.2017 mecidiyeköy\EticaretSitemiz\EticaretSitemiz\obj\Debug\EticaretSitemiz.pdb

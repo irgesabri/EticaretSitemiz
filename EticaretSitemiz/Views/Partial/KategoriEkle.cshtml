@@ -1,0 +1,49 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>KategoriEkle</title>
+</head>
+<body>
+    <h1 class="text-center">Kategori Ekleme</h1>
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-sm-offset-2" style="background-color:#d1d6db; border:1px solid gray;border-radius:3px">
+                <form action="~/Partial/KategoriEkle" method="post" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="comment">Kategori Adi</label>
+                        <input id="Text1" type="text" class="form-control" name="kategoriadi"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Kategori Sıra</label>
+                        <input id="Text1" type="text" class="form-control" name="kategorisira" />
+                    </div>
+                    <div class="form-group">
+                        <input id="Submit1" type="submit" class="btn btn-success" value="Ekle" />
+                    </div>
+                </form>
+            </div>
+            <div class="col-sm-4">
+                <h1>Kategoriler</h1>
+                <ul>
+                    @foreach (var item in new KategoriListele().Kategoriler())
+                    {
+                        <li>
+                            <span>@item.kategoriAdi</span>|
+                            <span><a href="/Yonetim/Index/KategoriEkle/sil/@item.kategoriID">Sil</a></span> |
+                           <span> <a href="/Yonetim/KategoriEkle/duzenle/@item.kategoriID">Duzenle</a></span>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

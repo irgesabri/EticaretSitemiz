@@ -1,0 +1,39 @@
+﻿@model List<EticaretSitemiz.Controllers.SepetSinifi>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Index.cshtml";
+}
+
+<div class="container">
+    <table class="table table-bordered">
+        <thead>
+
+        @*<thead>
+            etiketi HTML tablosunun başlık içeriğini gruplandımak için kullanılır.*@
+            <tr style="background-color:#af0afb;color:#ffffff">
+                <th>Ürün Adi</th>
+                <th>Ürün Fiyat</th>
+                <th>Ürün Adet</th>
+                <th>Toplam Fiyat</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr style="background-color:whitesmoke;color:gray">
+                    <td>@item.UrunAdi</td>
+                    <td>@item.Fiyat.ToString("C")</td>
+                    <td>@item.Adet</td>
+                    <td>@item.ToplamFiyat.ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <div class="form-group">
+        <div class="col-sm-10"></div>
+
+        <div class="col-sm-2" style="padding:0"></div>
+        <input type="button" id="Button1" value="button" class="form-control btn btn-primary" />
+    </div>
+</div>

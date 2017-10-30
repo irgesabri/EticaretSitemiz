@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Index.cshtml";
+}
+
+<h2 class="text-success">HomeIndex</h2>
+
+@*@Html.Partial("~/Views/Partial/Urunler.cshtml")
+@Html.Partial("~/Views/Partial/Urunler.cshtml")
+@Html.Partial("~/Views/Partial/Urunler.cshtml")*@
+
+@Html.Action("Urunler","Partial")
+

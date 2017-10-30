@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Eticaret_DBModelStoreContainer" CdmEntityContainer="Eticaret_DBEntities">
+    <EntitySetMapping Name="KATEGORI_URUNLER">
+      <EntityTypeMapping TypeName="Eticaret_DBModel.KATEGORI_URUNLER">
+        <MappingFragment StoreEntitySet="KATEGORI_URUNLER">
+          <ScalarProperty Name="kategori_urunID" ColumnName="kategori_urunID" />
+          <ScalarProperty Name="kategoriID" ColumnName="kategoriID" />
+          <ScalarProperty Name="urunID" ColumnName="urunID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KATEGORILER">
+      <EntityTypeMapping TypeName="Eticaret_DBModel.KATEGORILER">
+        <MappingFragment StoreEntitySet="KATEGORILER">
+          <ScalarProperty Name="kategoriID" ColumnName="kategoriID" />
+          <ScalarProperty Name="kategoriAdi" ColumnName="kategoriAdi" />
+          <ScalarProperty Name="kategoriSira" ColumnName="kategoriSira" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KULLANICI">
+      <EntityTypeMapping TypeName="Eticaret_DBModel.KULLANICI">
+        <MappingFragment StoreEntitySet="KULLANICI">
+          <ScalarProperty Name="kullaniciID" ColumnName="kullaniciID" />
+          <ScalarProperty Name="kullaniciAdi" ColumnName="kullaniciAdi" />
+          <ScalarProperty Name="password" ColumnName="password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REKLAM">
+      <EntityTypeMapping TypeName="Eticaret_DBModel.REKLAM">
+        <MappingFragment StoreEntitySet="REKLAM">
+          <ScalarProperty Name="reklamID" ColumnName="reklamID" />
+          <ScalarProperty Name="reklamAd" ColumnName="reklamAd" />
+          <ScalarProperty Name="reklamKodu" ColumnName="reklamKodu" />
+          <ScalarProperty Name="durum" ColumnName="durum" />
+          <ScalarProperty Name="yer" ColumnName="yer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SITEAYARLARI">
+      <EntityTypeMapping TypeName="Eticaret_DBModel.SITEAYARLARI">
+        <MappingFragment StoreEntitySet="SITEAYARLARI">
+          <ScalarProperty Name="siteAyarlariID" ColumnName="siteAyarlariID" />
+          <ScalarProperty Name="ayarisim" ColumnName="ayarisim" />
+          <ScalarProperty Name="ayardeger" ColumnName="ayardeger" />
+          <ScalarProperty Name="durum" ColumnName="durum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="Eticaret_DBModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="URUNLER">
+      <EntityTypeMapping TypeName="Eticaret_DBModel.URUNLER">
+        <MappingFragment StoreEntitySet="URUNLER">
+          <ScalarProperty Name="urunID" ColumnName="urunID" />
+          <ScalarProperty Name="urunAdi" ColumnName="urunAdi" />
+          <ScalarProperty Name="urunFiyat" ColumnName="urunFiyat" />
+          <ScalarProperty Name="urunStok" ColumnName="urunStok" />
+          <ScalarProperty Name="urunAciklama" ColumnName="urunAciklama" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="URUNLER_RESIM">
+      <EntityTypeMapping TypeName="Eticaret_DBModel.URUNLER_RESIM">
+        <MappingFragment StoreEntitySet="URUNLER_RESIM">
+          <ScalarProperty Name="UrunResimID" ColumnName="UrunResimID" />
+          <ScalarProperty Name="Resim" ColumnName="Resim" />
+          <ScalarProperty Name="Sira" ColumnName="Sira" />
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+          <ScalarProperty Name="urunID" ColumnName="urunID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
